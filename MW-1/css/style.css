@@ -1,0 +1,16 @@
+body{
+	/* background-color: red; */
+}
+
+.d{
+	
+	background-color: #FFF;
+
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.name{
+	color: blue;
+}

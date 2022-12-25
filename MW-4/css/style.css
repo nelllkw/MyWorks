@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.Container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+section{
+    width: 850px;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.ImgContainer{
+    position: relative;
+    width: 550px;
+    height: 700px;
+}
+
+.LogoInfo{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+
+    left: 80px;
+    top: 70px;
+}
+
+
+.PlantClass{
+
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.HeadElements{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.UpUserElementsSginIn{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #156952;
+    color: #FFF;
+}
+
+
+
+
+.UpUserElements{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.UpUserElements li{
+    display: flex;
+    margin: 0 5px;
+    
+}
+
+
+
+
+
+.KembangTextLabels{
+    margin: 140px 0 0 140px;
+}
+
+.KembangTextLabels h1{
+    font-size: 45px;
+    width: 400px;
+}
+
+
+
+.Buttons{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+
+    margin: 200px 0 0 0;
+
+}
+
+.Button{
+
+    padding: 10px;
+
+    margin: 0 0 0 40px;
+
+    width: 200px;
+}
+
+.Button h2, .Button h4{
+    margin: 5px 0px;
+}
+
+.Left{
+    background-color: #FFF;
+}   
+
+.Left h4::before{
+    content: "← ";
+}
+
+.Left h2{
+    color: #156952;
+}
+
+
+
+.Right{
+    background-color: #156952;
+}   
+
+.Right h4::after{
+    content: " 	→";
+
+}
+
+.Right h2{
+    color: #FFF;
+}
+
+.Right h4{
+    color: #83ADAA;
+}
+
+
+
+.FavorList{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    margin: 79px 0;
+}
+
+.Description-text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+}
+
+.Description-text img{
+    height: 50px;
+    width: 50px;
+}
+
+.Description-text h2{
+    color: #156952;
+    font-weight: bold;
+    margin:0 0 0 10px;
+}
+
+.FavorDescription{
+    width: 320px;
+}
+
+.FavorDescription p{
+    font-size: 12px;
+
+}
+
+
+
+.PlantsSection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.PlantCard{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    width: 250px;
+    height: 300px;
+
+    background-color: #F3F4F6;
+}
+
+.PlantCard img{
+    height: 200px;
+    width: 210px;    
+}
+
+.PlantCard .Price{
+    font-weight: bold;
+    font-size: 20px;
+
+    margin:0;
+
+    text-decoration: underline;
+}
+
+.MorePlants{
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+
+.InfoText{
+    
+    margin: 20px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.InfoBox{
+    width: 600px;
+
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.InfoBox h1{
+    width: 500px;
+}
+
+.InfoBox p{
+    width: 561px;
+    font-size: 15px;
+
+}
+
+.InfoBox img{
+    margin-top: 100px;
+}
+
+.InfoBox-leftIMG{
+    height: 620px;
+
+    margin: auto 0;
+}
+
+
+
+
+
+
+.FavoritFlower{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+
+    background-color: #F3F4F6;
+}
+
+
+.FavoritFlower-TextAndButton{
+    
+    height: 200px;
+
+    margin: auto 0;
+}
+
+.FavoritFlower-TextAndButton h1{
+    width: 450px;
+}
+
+.LinkURL_Style{
+    padding: 10px;
+    font-size: 20px;
+
+    background-color: #156952;
+    color: #fff;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.PlantakuINFO h1{
+    color: #156952;
+}
+
+.PLANTAKU_columnStyle{
+    width: 400px;
+}
+
+.logoSize{
+    width: 300px;
+    margin: 0 50px;
+}
+
+
+.LogoInfo h4{
+    margin: 0;
+}
+
+.logoSize p{
+    margin: 5px 0;
+}
+
+.logoSize h2{
+    margin: 2px 0;
+}
+
+.SubmitSubBtn{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.columnStyle{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+
+}
+
+.columnCenter{
+   display: flex;
+   align-items: flex-start;
+}
